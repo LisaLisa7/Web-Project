@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang = "ro-Ro">
+<head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/stil.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            
+            <a href="index.html">Acasă</a>
+            <a href="inregistreaza.html">Inregistrează</a>
+            <a href="video.html">Video</a>
+            <a href="despre.html">Despre</a>
+            <a href="desen.html">Desen</a>
+            <a href="invat.html">Invat</a>
+        </nav>
+    </header>
+    <h1>Formular</h1>
+
+    <form>
+        <fieldset>
+        <legend>Informatii generale</legend>
+        <label>Nume utilizator</label><br>
+        <input type = "text" name="nj"><br>
+        <label>Parola</label><br>
+        <input type = "password" name="ns"><br>
+        <label>Nume</label><br>
+        <input type = "text" name="nj"><br>
+        <label>Prenume</label><br>
+        <input type = "text" name="nj"><br>
+        <label>Email</label><br>
+        <input type = "email" name="nj"><br>
+        <label>Telefon</label><br>
+        <input type = "tel" name="nj"><br>
+        </fieldset>
+
+        <fieldset>
+        <legend>Informatii personale</legend>
+        <label>Sex</label><br>
+        <select name="sex" id="sex">
+            <option value="F">F</option>
+            <option value="M">M</option>
+            <option value="Altceva">Altceva</option>
+          </select>
+        <br>
+        <label>Mancare preferata</label><br>
+        <input list="Mancare_preferata" id="m" name = "mm">
+        <datalist id="Mancare_preferata">
+            <option value="Paste">
+            <option value="Pizza">
+            <option value="Lasagna">
+        </datalist>
+        <br>
+        <label>Data nasterii</label><br>
+        <input type="date">
+        <br>
+        <label>Ora nasterii</label><br>
+        <input type="time">
+        <br>
+        <label>Culoare preferata</label><br>
+        <input type="color">
+        <br>
+        <label>Varsta</label><br>
+        <input type="range" min = "0" max="120" step = "1">
+        <br>
+        <label>Pagina personala</label><br>
+        <input type="url">
+        <br>
+        <label>Descriere</label><br>
+        <textarea></textarea>
+        <br>
+        <br>
+
+        <button type ="submit" name="trimite" disabled>Inregistreaza</button>
+        </fieldset>
+    </form>
+
+</body>
+</html>

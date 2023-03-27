@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang = "ro-Ro">
+<head>
+    <title>Desen</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/stil.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            
+            <a href="index.html">Acasă</a>
+            <a href="inregistreaza.html">Inregistrează</a>
+            <a href="video.html">Video</a>
+            <a href="despre.html">Despre</a>
+            <a href="desen.html">Desen</a>
+            <a href="invat.html">Invat</a>
+        </nav>
+    </header>
+
+    <svg height="1200" width="1200">
+        <defs>
+            <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
+              <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+            </linearGradient>
+            <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" style="stop-color:rgb(10, 138, 52);stop-opacity:1" />
+                <stop offset="100%" style="stop-color:rgb(146, 226, 153);stop-opacity:1" />
+            </linearGradient>
+            <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" style="stop-color:rgb(110, 6, 96);stop-opacity:1" />
+                <stop offset="100%" style="stop-color:rgb(224, 96, 250);stop-opacity:1" />
+            </linearGradient>
+        </defs>
+
+        <text x="400" y="20" fill="red" transform="rotate(30 20,40)">Play has no limits</text>
+        <!-- PS-->
+        <!--
+            <polyline points="0,40 40,40 40,80  0,80 0,40 0,120" style="stroke:red;stroke-width:4" />
+        <polyline points="120,40 80,40 80,80 120,80 120,120 80,120" style="stroke:red;stroke-width:4" />
+        -->
+        
+        <!-- Patrat -->
+        <rect x="60" y="230" width="70" height="70" style="fill:url(#grad3);stroke:rgb(182, 90, 190);" />
+        <!-- Cerc-->
+        <circle cx="310" cy="264" r="40" stroke="red"  fill="url(#grad1)" />
+        <!-- Triunghi-->
+        <polygon points="200,125 250,210 160,210" style="fill:url(#grad2);stroke:green;stroke-width:1" />
+
+        <!-- X-ul -->
+        <polyline points="160,320  250,400" style="fill:white;stroke:blue;stroke-width:4" />
+        <polyline points="250,320  160,400" style="fill:white;stroke:blue;stroke-width:4" />
+        
+        
+         
+
+        
+    </svg>
+    
+
+</body>
+</html>

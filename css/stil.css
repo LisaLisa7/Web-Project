@@ -1,0 +1,220 @@
+header {
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+
+header nav{
+  
+  height: 30px;
+  text-align: center;
+  padding-right: 30px;
+  padding-top: 40px;
+  font-size: 13px;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: bold;
+  color:rgb(255, 255, 255);
+}
+
+header nav a{
+  background-color: #fffbfb;
+  padding: 10px;
+  border-style:solid;
+  border-color: #f5f1f1;
+  border-radius: 2cm;
+}
+
+body{
+  background-image: url(../imagini/bk.jpeg);
+  text-align: center;
+  color: #ffffff;
+}
+
+body > p{
+  color: #ffffff;
+}
+
+table, th, td{
+  border: 1px solid;
+  margin-left: auto;
+  margin-right: auto;
+}
+ul,ol{
+  text-align: center;
+  list-style-position: inside;
+  padding-right: 30px;
+  color:#ffffff;
+}
+
+footer{
+  height: 1px;
+  text-align: center;
+
+}
+input {
+  width: 23%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius:2cm;
+}
+
+input[type=date],input[type=color]{
+  width: 5cm;
+  height: 1cm;
+}
+input[type=time]{
+  width: 4cm;
+  height: 1cm;
+}
+
+button{
+  border-radius: 2cm;
+  
+}
+
+.button:hover {
+  background-color: #054905; 
+  color: white;
+}
+h1,label,p,legend{
+  color:#ffffff;
+}
+
+form {
+  width: 75%;
+  margin: 0 auto;
+  
+}
+
+form > p{
+  color: #ffffff;
+}
+
+textarea {
+  border: 1px solid #888; 
+  width: 10cm;
+  height: 4cm;
+  font-size: large;
+}
+
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 50px 50px;
+  gap: 10px;
+}
+
+article{
+  background-color: #f5f1f1;
+}
+article > h2, p {
+  
+  font-size: 90%;
+  color: #000000;
+}
+
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn{   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .nav a {
+      float: none;
+      width: 100%;
+    }
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {   
+    float: left;
+    width: 70%;
+    background-color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 2cm;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: right;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 2cm;
+  }
+  
+  .card {
+    background-color: rgb(45, 138, 214);
+    padding: 20px;
+    margin-top: 20px;
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-bottom: 20px;
+    border-radius: 2cm;
+  }
+
+  .card > p,h1{
+    color: #ffffff;
+  }
+
+  
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .imageMove{
+    position:relative;
+    text-align: left;
+    animation-name: example;
+    animation-duration: 20s; 
+  }
+  @keyframes example {
+    0%   {left:0px; top:0px;}
+    100%  { left:1200px; top:0px;}
+  }
+
+  .invat > p {
+    color: #ffffff;
+    font-family:cursive;
+    text-align: left;
+    font-size: larger;
+    
+    
+  }
+  .invat > h2 {
+    color: #ffffff;
+    font-family:cursive;
+    float: left;
+  }
+
+  .invat > .leftcolumn{  
+      
+      width: 70%;
+      background-color: #ffffff;
+      padding-left: 20px;
+      padding-right: 20px;
+      border-radius: 2cm;
+  }
+
+  .invat > .rightcolumn {
+    float: right;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 2cm;
+  }
+  
