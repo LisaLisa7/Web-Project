@@ -4,37 +4,28 @@
     <title>Home</title>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="css/stil.css">
+    <script src="js/script.js"></script>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 
 <body>
-    <header>
-        <nav>
-            
-            <a href="index.html">Acasă</a>
-            <a href="inregistreaza.html">Inregistrează</a>
-            <a href="video.html">Video</a>
-            <a href="despre.html">Despre</a>
-            <a href="desen.html">Desen</a>
-            <a href="invat.html">Invat</a>
-        </nav>
-    </header>
     <h1>Formular</h1>
 
     <form>
         <fieldset>
         <legend>Informatii generale</legend>
         <label>Nume utilizator</label><br>
-        <input type = "text" name="nj"><br>
+        <input type = "text" name="nj" id="user"><br>
         <label>Parola</label><br>
-        <input type = "password" name="ns"><br>
+        <input type = "password" name="ns" id="pass"><br>
         <label>Nume</label><br>
-        <input type = "text" name="nj"><br>
+        <input type = "text" name="nj" id="nume"><br>
         <label>Prenume</label><br>
-        <input type = "text" name="nj"><br>
+        <input type = "text" name="nj" id="prenume"><br>
         <label>Email</label><br>
-        <input type = "email" name="nj"><br>
+        <input type = "email" name="nj" id="email"><br>
         <label>Telefon</label><br>
-        <input type = "tel" name="nj"><br>
+        <input type = "tel" name="nj" id="phone"><br>
         </fieldset>
 
         <fieldset>
@@ -47,7 +38,7 @@
           </select>
         <br>
         <label>Mancare preferata</label><br>
-        <input list="Mancare_preferata" id="m" name = "mm">
+        <input list="Mancare_preferata" id="mancare" name = "mm">
         <datalist id="Mancare_preferata">
             <option value="Paste">
             <option value="Pizza">
@@ -55,26 +46,27 @@
         </datalist>
         <br>
         <label>Data nasterii</label><br>
-        <input type="date">
+        <input type="date" id="dataNastere">
         <br>
         <label>Ora nasterii</label><br>
-        <input type="time">
+        <input type="time" id="oraNastere">
         <br>
         <label>Culoare preferata</label><br>
-        <input type="color">
+        <input type="color" id="culoarePref">
         <br>
         <label>Varsta</label><br>
-        <input type="range" min = "0" max="120" step = "1">
+        <input type="range" name ="varsta" id="varsta" value="20" min = "0" max="120" step = "1" onchange="updateTextInput()">
+        <p id="displayV" style="color: aliceblue;"></p><br>
         <br>
         <label>Pagina personala</label><br>
-        <input type="url">
+        <input type="url" id="blog">
         <br>
         <label>Descriere</label><br>
-        <textarea></textarea>
+        <textarea id="descriere"></textarea>
         <br>
         <br>
 
-        <button type ="submit" name="trimite" disabled>Inregistreaza</button>
+        <button type ="button" name="trimite" onclick="inregistreazaInfoGenerale()" >Inregistreaza</button>
         </fieldset>
     </form>
 

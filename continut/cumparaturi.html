@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang = "ro-Ro">
+<head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/stil.css">
+    <script src="js/script.js"></script>
+    <script src="js/cumparaturi.js"></script>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+    
+    <form>
+        <fieldset>
+        <legend>Cumparaturi</legend>
+        <label>Nume produs</label><br>
+        <input type = "text" name="nj" id="prod"><br>
+        <label>Cantitate</label><br>
+        <input type = "text" name="ns" id="cant"><br>
+        <button type="button" onclick="adaugaProdus()">Adauga</button>
+        </fieldset>
+    </form>
+    <br><br><br>
+
+    <img id="imgAdauga" src="imagini/butterfly-effect-life-is-strange.gif" alt="gif" width="200" height="200" style="display: none;">
+
+    <div class ="cumparaturi">
+    <table id="cumparaturi">
+        <tr>
+            <th>Nr</th>
+            <th>Nume Produs</th>
+            <th>Cantitate</th>
+        </tr>
+    </table>
+    </div>
+
+    
+
+</body>
+</html>

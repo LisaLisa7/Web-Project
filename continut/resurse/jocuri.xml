@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<jocuri>
+    <joc id="1">
+        <nume>The Last Of Us</nume>
+        <nota>10</nota>
+        <gen>Survival horror,Actine-Aventura, Story-Driven</gen>
+        <studio>Naughty Dog</studio>
+        <restrictie>+17</restrictie>
+        <descriere>TODO</descriere>
+    </joc>
+    <joc id="2">
+        <nume>The Last Of Us Part II</nume>
+        <nota>9</nota>
+        <gen>Survival horror, Actine-Aventura, Story-Driven</gen>
+        <studio>Naughty Dog</studio>
+        <restrictie>+18</restrictie>
+        <descriere>TODO</descriere>
+    </joc>
+    <joc id="3">
+        <nume>The Quarry</nume>
+        <nota>8</nota>
+        <gen>Survival horror, Story-Driven, Choice-Driven</gen>
+        <studio>Supermassive Games</studio>
+        <restrictie>+17</restrictie>
+        <descriere>TODO</descriere>
+    </joc>
+    <joc id="4">
+        <nume>Until Dawn</nume>
+        <nota>9</nota>
+        <gen>Survival horror, Story-Driven, Choice-Driven</gen>
+        <studio>Supermassive Games</studio>
+        <restrictie>+18</restrictie>
+        <descriere>TODO</descriere>
+    </joc>
+    <joc id="5">
+        <nume>Life is Strange 3</nume>
+        <nota>10</nota>
+        <gen>Aventura, Story-Driven, Choice-Driven</gen>
+        <studio>Deck Nine</studio>
+        <restrictie>+16</restrictie>
+        <descriere>TODO</descriere>
+    </joc>
+    <joc id="6">
+        <nume>Detroit Become Human</nume>
+        <nota>10</nota>
+        <gen>Actiune-Aventura, Story-Driven, Choice-Driven</gen>
+        <studio>Quantic Dream</studio>
+        <restrictie>+18</restrictie>
+        <descriere>TODO</descriere>
+    </joc>
+    <joc id="7">
+        <nume>Life is Strange</nume>
+        <nota>9</nota>
+        <gen>Aventura, Story-Driven, Choice-Driven</gen>
+        <studio>Deck Nine</studio>
+        <restrictie>+16</restrictie>
+        <descriere>TODO</descriere>
+    </joc>
+    <joc id="8">
+        <nume>inFamous Second Son</nume>
+        <nota>8</nota>
+        <gen>Actiune-Aventura, Story-Driven</gen>
+        <studio>Sucker Punch Productions</studio>
+        <restrictie>+16</restrictie>
+        <descriere>TODO</descriere>
+    </joc>
+    <joc id="9">
+        <nume>inFamous First Light</nume>
+        <nota>8</nota>
+        <gen>Actiune-Aventura, Story-Driven</gen>
+        <studio>Sucker Punch Productions</studio>
+        <restrictie>+16</restrictie>
+        <descriere>TODO</descriere>
+    </joc>
+    <joc id="10">
+        <nume>Beyond Two Souls</nume>
+        <nota>9</nota>
+        <gen>Actiune-Aventura,Choice-Driven, Story-Driven</gen>
+        <studio>Quantic Dream</studio>
+        <restrictie>+17</restrictie>
+        <descriere>TODO</descriere>
+    </joc>
+    <joc id="11">
+        <nume>Rise Of The Tomb Raider</nume>
+        <nota>7</nota>
+        <gen>Actiune-Aventura, Story-Driven</gen>
+        <studio>Crystal Dynamics</studio>
+        <restrictie>+13</restrictie>
+        <descriere>TODO</descriere>
+    </joc>
+    <joc id="12">
+        <nume>Tomb Raider</nume>
+        <nota>8</nota>
+        <gen>Actiune-Aventura, Story-Driven</gen>
+        <studio>Crystal Dynamics</studio>
+        <restrictie>+18</restrictie>
+        <descriere>TODO</descriere>
+    </joc>
+    <joc id="13">
+        <nume>Jak and Daxter</nume>
+        <nota>7</nota>
+        <gen>Platform, Actiune-Aventura</gen>
+        <studio>Naughty Dog</studio>
+        <restrictie>+12</restrictie>
+        <descriere>TODO</descriere>
+    </joc>
+    <joc id="14">
+        <nume>Jak II</nume>
+        <nota>9</nota>
+        <gen>Platform, Actiune-Aventura, Story-Driven, Third-Person Shooter</gen>
+        <studio>Naughty Dog</studio>
+        <restrictie>+12</restrictie>
+        <descriere>TODO</descriere>
+    </joc>
+    <joc id="15">
+        <nume>Jak III</nume>
+        <nota>10</nota>
+        <gen>Platform, Actiune-Aventura, Story-Driven,Third-Person Shooter</gen>
+        <studio>Naughty Dog</studio>
+        <restrictie>+12</restrictie>
+        <descriere>TODO</descriere>
+    </joc>
+    <joc id="16">
+        <nume>StarWars Knights of the Old Republic</nume>
+        <nota>9</nota>
+        <gen>RPG, Aventura, Choice-Driven, Story-Driven</gen>
+        <studio>BioWare</studio>
+        <restrictie>+12</restrictie>
+        <descriere>TODO</descriere>
+    </joc>
+    <joc id="17">
+        <nume>StarWars Knights of the Old Republic II</nume>
+        <nota>10</nota>
+        <gen>RPG, Aventura, Choice-Driven, Story-Driven</gen>
+        <studio>BioWare</studio>
+        <restrictie>+12</restrictie>
+        <descriere>TODO</descriere>
+    </joc>
+    <joc id="18">
+        <nume>Dragon Age Origins</nume>
+        <nota>9</nota>
+        <gen>RPG, Aventura, Choice-Driven, Story-Driven</gen>
+        <studio>BioWare</studio>
+        <restrictie>+17</restrictie>
+        <descriere>TODO</descriere>
+    </joc>
+    <joc id="19">
+        <nume>Outlast</nume>
+        <nota>9</nota>
+        <gen>Survival horror, Actiune-Aventura,  Story-Driven</gen>
+        <studio>Red Barrels</studio>
+        <restrictie>+18</restrictie>
+        <descriere>TODO</descriere>
+    </joc>
+    <joc id="20">
+        <nume>BioShock</nume>
+        <nota>7</nota>
+        <gen>Survival horror, Actiune-Aventura, First-person shooter, RPG</gen>
+        <studio>2K Games</studio>
+        <restrictie>+17</restrictie>
+        <descriere>TODO</descriere>
+    </joc>
+    <joc id="21">
+        <nume>BioShock 2</nume>
+        <nota>7</nota>
+        <gen>Survival horror, Actiune-Aventura, First-person shooter, RPG</gen>
+        <studio>2K Games</studio>
+        <restrictie>+17</restrictie>
+        <descriere>TODO</descriere>
+    </joc>    
+    <joc id="22">
+        <nume>Mystery Case Files RavenHearst</nume>
+        <nota>7</nota>
+        <gen>Aventura, Puzzle, Hidden-Object</gen>
+        <studio>Big Fish Games</studio>
+        <restrictie>+14</restrictie>
+        <descriere>TODO</descriere>
+    </joc>
+    <joc id="23">
+        <nume>Mystery Case Files Return To RavenHearst</nume>
+        <nota>8</nota>
+        <gen>Aventura, Puzzle, Hidden-Object</gen>
+        <studio>Big Fish Games</studio>
+        <restrictie>+14</restrictie>
+        <descriere>TODO</descriere>
+    </joc>
+    <joc id="24">
+        <nume>Mystery Case Files Escape From RavenHearst</nume>
+        <nota>10</nota>
+        <gen>Aventura, Puzzle, Hidden-Object</gen>
+        <studio>Big Fish Games</studio>
+        <restrictie>+14</restrictie>
+        <descriere>TODO</descriere>
+    </joc>
+    <joc id="25">
+        <nume>Mystery Case Files Madame Fate</nume>
+        <nota>7</nota>
+        <gen>Aventura, Puzzle, Hidden-Object</gen>
+        <studio>Big Fish Games</studio>
+        <restrictie>+14</restrictie>
+        <descriere>TODO</descriere>
+    </joc>
+    <joc id="26">
+        <nume>Mystery Case Files Dire Grove</nume>
+        <nota>5</nota>
+        <gen>Aventura, Puzzle, Hidden-Object</gen>
+        <studio>Big Fish Games</studio>
+        <restrictie>+14</restrictie>
+        <descriere>TODO</descriere>
+    </joc>
+    <joc id="27">
+        <nume>Prince of Persia The Sands Of Time</nume>
+        <nota>8</nota>
+        <gen>Platform, Actiune-Aventura, Puzzle</gen>
+        <studio>Ubisoft</studio>
+        <restrictie>+12</restrictie>
+        <descriere>TODO</descriere>
+    </joc>
+    <joc id="28">
+        <nume>Prince of Persia Warrior Within</nume>
+        <nota>6</nota>
+        <gen>Platform, Actiune-Aventura, Puzzle</gen>
+        <studio>Ubisoft</studio>
+        <restrictie>+16</restrictie>
+        <descriere>TODO</descriere>
+    </joc>
+    <joc id="28">
+        <nume>Prince of Persia The Two Thrones</nume>
+        <nota>9</nota>
+        <gen>Platform, Actiune-Aventura, Puzzle</gen>
+        <studio>Ubisoft</studio>
+        <restrictie>+16</restrictie>
+        <descriere>TODO</descriere>
+    </joc>
+    <joc id="29">
+        <nume>Assassin's Creed II</nume>
+        <nota>9</nota>
+        <gen>Open world, Stealth, Actiune-Aventura</gen>
+        <studio>Ubisoft</studio>
+        <restrictie>+16</restrictie>
+        <descriere>TODO</descriere>
+    </joc>
+    <joc id="30">
+        <nume>Assassin's Creed Brotherhood</nume>
+        <nota>8</nota>
+        <gen>Open world, Stealth, Actiune-Aventura</gen>
+        <studio>Ubisoft</studio>
+        <restrictie>+16</restrictie>
+        <descriere>TODO</descriere>
+    </joc>
+    <joc id="31">
+        <nume>Assassin's Creed III</nume>
+        <nota>9</nota>
+        <gen>Open world, Stealth, Actiune-Aventura</gen>
+        <studio>Ubisoft</studio>
+        <restrictie>+18</restrictie>
+        <descriere>TODO</descriere>
+    </joc>
+    <joc id="32">
+        <nume>Grand Theft Auto 5</nume>
+        <nota>9</nota>
+        <gen>Open world, Actiune-Aventura</gen>
+        <studio>Ubisoft</studio>
+        <restrictie>+18</restrictie>
+        <descriere>TODO</descriere>
+    </joc>
+     <joc id="33">
+        <nume>Xena Warrior Princess</nume>
+        <nota>8</nota>
+        <gen>Actiune-Aventura</gen>
+        <studio>Universal Interactive</studio>
+        <restrictie>+12</restrictie>
+        <descriere>TODO</descriere>
+    </joc>
+    <joc id="34">
+        <nume>Assassin's Creed</nume>
+        <nota>6</nota>
+        <gen>Open world, Stealth, Actiune-Aventura</gen>
+        <studio>Ubisoft</studio>
+        <restrictie>+16</restrictie>
+        <descriere>TODO</descriere>
+    </joc>
+
+</jocuri>

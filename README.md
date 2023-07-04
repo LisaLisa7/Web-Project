@@ -1,2 +1,1 @@
-# Web-Project
-Ongoing project for uni
+# proiect-1-GeorgianaVasilicaCojocaru

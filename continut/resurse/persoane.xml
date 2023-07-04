@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+<!DOCTYPE persoane  [
+<!ELEMENT persoane (persoana+)>
+<!ELEMENT persoana (nume, prenume, varsta, adresa,cv)>
+<!ATTLIST persoana id CDATA #REQUIRED>
+<!ELEMENT nume (#PCDATA)>
+<!ELEMENT prenume (#PCDATA)>
+<!ELEMENT varsta (#PCDATA)>
+<!ELEMENT adresa (strada, numar, localitate, judet, tara)>
+<!ELEMENT cv (liceu,facultate)>
+<!ELEMENT strada (#PCDATA)>
+<!ELEMENT numar (#PCDATA)>
+<!ELEMENT localitate (#PCDATA)>
+<!ELEMENT judet (#PCDATA)>
+<!ELEMENT tara (#PCDATA)>
+<!ELEMENT liceu (#PCDATA)>
+<!ELEMENT facultate (#PCDATA)>]>
+-->
+<persoane>
+    <persoana id="1">
+        <nume>Popescu</nume>
+        <prenume>Ion</prenume>
+        <varsta>23</varsta>
+        <adresa>
+            <strada>Sperantei</strada>
+            <numar>2</numar>
+            <localitate>Iasi</localitate>
+            <judet>Iasi</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <cv>
+            <liceu>Moisil</liceu>
+            <facultate>AC</facultate>
+        </cv>
+    </persoana>
+    <persoana id="2">
+        <nume>Lupu</nume>
+        <prenume>Andra</prenume>
+        <varsta>21</varsta>
+        <adresa>
+            <strada>Idk</strada>
+            <numar>3</numar>
+            <localitate>Totoiesti</localitate>
+            <judet>Iasi</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <cv>
+            <liceu>Moisil</liceu>
+            <facultate>Info</facultate>
+        </cv>
+    </persoana>
+    <persoana id="3">
+        <nume>Martin</nume>
+        <prenume>Maria</prenume>
+        <varsta>21</varsta>
+        <adresa>
+            <strada>something</strada>
+            <numar>2</numar>
+            <localitate>Iasi</localitate>
+            <judet>Iasi</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <cv>
+            <liceu>Moisil</liceu>
+            <facultate>AC</facultate>
+        </cv>
+    </persoana>
+</persoane>

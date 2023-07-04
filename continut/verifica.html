@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang = "ro-Ro">
+<head>
+    <title>Verifica</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/stil.css">
+    <script src="js/script.js"></script>
+    <script src="js/verificare.js"></script>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+    
+    <form>
+        <fieldset>
+        <legend>Logare</legend>
+        <label>Nume utilizator</label><br>
+        <input type = "text" id="user" name="utilizator"><br>
+        <label>Parola</label><br>
+        <input type = "password" id="pass" name="parola"><br>
+        <button type="button" onclick="vf(document.getElementById('user').value,document.getElementById('pass').value)">Trimite</button>
+        </fieldset>
+
+    </form>
+    <div class="vf">
+    <p id="stare"></p>
+    </div>
+    
+
+</body>
+</html>

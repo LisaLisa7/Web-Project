@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang = "ro-Ro">
+<head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/stil.css">
+    <script src="js/script.js"></script>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body onload="callAll()">
+    <div class="invat">
+        <div class ="leftcolumn" onclick="callAll()">
+            <div class ="card">
+                <h1>Sectiune informativa</h1>
+                
+                    <h2>Data curenta: </h2><br><br>
+                    <p id="date_p">ora</p>
+                    <br>
+                    <h2>Adresa URL:</h2><br><br>
+                    <p id="url_p">url</p>
+                    <h2>Locatie:</h2><br><br>
+                    <p id="location_p">locatie</p><br>
+                    <h2>Browser</h2><br>
+                    <p id="browser_p">browser</p>
+                    <h2>OS: </h2><br>
+                    <p id="os_id">os</p>
+
+            </div>
+        </div>
+        <div class = "rightcolumn">
+            <div class = "card">
+                <h1>Sectiune desene</h1>
+                <label for="contur_c">Culoare contur:</label>
+                <input type="color" id="contur_c" name="favcolor" value="#ff0000"> 
+                <label for="fill_c">Culoare umplere:</label>
+                <input type="color" id="fill_c" name="fillcolor" value="#ff0000"> 
+                <canvas onclick="rect()" id = "desen">
+                
+                </canvas>
+            </div>
+            <div class ="card">
+                <h1>Sectiune 3</h1>
+
+                <input type="color" id="culoareTabel"> <br>
+                <input type="number" name="pozitie" id="poz"> 
+                <button type ="button" onclick="addLinie()">Insert Linie</button>
+                <button  type ="button" onclick="addColoana()">Insert Coloana</button> <br><br>
+                <table id="tabel"> 
+                    <tr> 
+                        <th>Joc</th>
+                        <th>Studio</th>
+                        
+                    </tr>
+                    <tr>
+                        <td>Jax and Daxter</td>
+                        <td  >Naughty Dog</td>
+                    </tr>
+                    <tr>
+                        <td  >The Last Of Us</td>
+                        <td  >Naughty Dog</td>
+                    </tr>
+                    <tr>
+                        <td  >The wolf among us</td>
+                        <td  >TellTale</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    
+
+</body>
+</html>
